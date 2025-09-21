@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  i18n: {
-    locales: ['cs', 'uk'],
-    defaultLocale: process.env.NEXT_PUBLIC_DEFAULT_LOCALE || 'cs',
-  },
+  output: 'standalone',
   images: {
     remotePatterns: [
       {
